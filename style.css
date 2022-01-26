@@ -45,54 +45,70 @@ body{
     color:var(--White);
     text-indent: 17px;
     font-weight: 700px;
+    margin: 0px;
 }
-.description{
+
+.description{ 
     width: 250px;
     display: flex;
     justify-items: center;
-   
+}
 
-} 
 .description >p{
     display: flex;
-    color:var(--Very-dark-blue-line);
+    color:var(--Soft-blue);
     font-size: 14px;
     margin-left: 18px;
     margin-right: 1px;
-    padding-top: 15px;
+    line-height: 150%;
 }
+
+.eth-logo{
+    width:12px;
+    height:18px;
+    margin: 0px;
+   
+
+}
+
 .price-nft >p{
     color: var(--Cyan);
     font-size: 13px;
-    width: 70px;
+    width: 80px;
+    margin: 0px;
     margin-left: 20px;
-    padding-top: 19px;
+  
+}
+.clock{
+    width:15px; 
+    height:16px;
+    margin-right: 5px;
 }
 .time-left{
     display: flex;
     justify-content: end;
-    color:var(--Very-dark-blue-line);   
+    color:var(--Soft-blue);   
     font-size: 13px;
     margin-left: 48px;
-    padding-top: 17px;
+    margin-top: 10px;
     width: 90px;
 } 
 
 .text-box{
     display: flex;
     justify-content: baseline;
-    margin-top: 0px;
+    
 }
 .line {
     width: 250px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .line > div{
     border-top: 1px solid var(--Very-dark-blue-line);
     width: 210px;
-    height:25px;
+    height:2px;
 }
 
 
@@ -102,8 +118,6 @@ height: 20px;
 display: flex;
 justify-content:center ;
 align-items: center; 
-
-
 
 }
 

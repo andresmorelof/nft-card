@@ -64,11 +64,14 @@ body{
 }
 
 .eth-logo{
-    width:12px;
-    height:18px;
-    margin: 0px;
-   
-
+  display: flex;
+  width: 10px;
+  height: 15px;
+}
+.price-nft{
+    display: flex;
+    justify-content: baseline;
+    
 }
 
 .price-nft >p{
@@ -76,7 +79,7 @@ body{
     font-size: 13px;
     width: 80px;
     margin: 0px;
-    margin-left: 20px;
+    margin-left: 5px;
   
 }
 .clock{
@@ -89,14 +92,14 @@ body{
     justify-content: end;
     color:var(--Soft-blue);   
     font-size: 13px;
-    margin-left: 48px;
-    margin-top: 10px;
+    margin-left: 38px;
+    margin-top: 0px;
     width: 90px;
 } 
 
 .text-box{
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     
 }
 .line {
@@ -111,6 +114,9 @@ body{
     height:2px;
 }
 
+.text-boxfoot{
+    margin-top: 20px;
+}
 
 .img-avatar{
 width:20px;
